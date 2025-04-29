@@ -2,9 +2,7 @@
  Selenium Maven TestNG Java framework
 
 📁 Maven Project Structure:
-pgsql
-Copy
-Edit
+
 selenium-framework/
 ├── pom.xml
 ├── src/
