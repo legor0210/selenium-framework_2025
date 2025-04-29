@@ -1,0 +1,22 @@
+2025-04-29 17:01:18,248 [main] INFO : Starting test: testLogin
+2025-04-29 17:01:18,870 [main] INFO : Navigated to login page: https://example.com/login
+2025-04-29 17:01:18,873 [main] INFO : LoginPage object initialized.
+2025-04-29 17:01:19,055 [main] INFO : Driver quit.
+2025-04-29 17:01:54,380 [main] INFO : Starting test: testLogin
+2025-04-29 17:01:56,226 [main] INFO : Navigated to login page: https://example.com/login
+2025-04-29 17:01:56,229 [main] INFO : LoginPage object initialized.
+2025-04-29 17:01:56,252 [main] INFO : Driver quit.
+2025-04-29 17:02:33,629 [main] INFO : Starting test: testLogin
+2025-04-29 17:02:34,244 [main] INFO : Navigated to login page: https://www.facebook.com/
+2025-04-29 17:02:34,248 [main] INFO : LoginPage object initialized.
+2025-04-29 17:02:34,270 [main] INFO : Driver quit.
+2025-04-29 17:03:57,401 [main] INFO : Starting test: testLogin
+2025-04-29 17:03:58,028 [main] INFO : Navigated to login page: https://www.facebook.com/
+2025-04-29 17:03:58,032 [main] INFO : LoginPage object initialized.
+2025-04-29 17:03:58,165 [main] INFO : Login attempted.
+2025-04-29 17:03:58,168 [main] INFO : Driver quit.
+2025-04-29 17:04:24,797 [main] INFO : Starting test: testLogin
+2025-04-29 17:04:25,371 [main] INFO : Navigated to login page: https://www.facebook.com/
+2025-04-29 17:04:25,374 [main] INFO : LoginPage object initialized.
+2025-04-29 17:04:25,575 [main] INFO : Login attempted.
+2025-04-29 17:04:25,579 [main] INFO : Driver quit.
