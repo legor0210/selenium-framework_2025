@@ -20,3 +20,8 @@
 2025-04-29 17:04:25,374 [main] INFO : LoginPage object initialized.
 2025-04-29 17:04:25,575 [main] INFO : Login attempted.
 2025-04-29 17:04:25,579 [main] INFO : Driver quit.
+2025-04-29 17:49:29,163 [main] INFO : Starting test: testLogin
+2025-04-29 17:49:29,710 [main] INFO : Navigated to login page: https://www.facebook.com/
+2025-04-29 17:49:29,713 [main] INFO : LoginPage object initialized.
+2025-04-29 17:49:29,904 [main] INFO : Login attempted.
+2025-04-29 17:49:31,902 [main] INFO : Driver quit.
