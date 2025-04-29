@@ -10,6 +10,9 @@ public class LoginPage {
     By password = By.id("pass");
     By loginBtn = By.name("login");
 
+    By dashboardHeader = By.id("dashboardHeader"); // assumed ID of successful login element
+
+
     public LoginPage(WebDriver driver) {
         this.driver = driver;
     }
@@ -18,5 +21,13 @@ public class LoginPage {
         driver.findElement(username).sendKeys(user);
         driver.findElement(password).sendKeys(pass);
         driver.findElement(loginBtn).click();
+    }
+
+    public boolean isLoginSuccessful() {
+        try {
+            return driver.findElement(dashboardHeader).isDisplayed();
+        } catch (Exception e) {
+            return false; // Element not found or not visible
+        }
     }
 }
