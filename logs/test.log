@@ -75,3 +75,40 @@
 2025-05-03 00:07:28,774 [main] INFO : Navigated to login page: https://www.facebook.com/
 2025-05-03 00:07:28,975 [main] INFO : Login attempted.
 2025-05-03 00:07:30,925 [main] INFO : Driver quit.
+2025-05-03 00:38:39,228 [main] INFO : Launching Firefox browser.
+2025-05-03 00:39:51,118 [main] INFO : Starting test: testLogin
+2025-05-03 00:39:52,956 [main] INFO : Launching Chrome browser.
+2025-05-03 00:39:52,960 [main] INFO : LoginPage object initialized.
+2025-05-03 00:39:53,569 [main] INFO : Navigated to login page: https://www.facebook.com/
+2025-05-03 00:39:53,736 [main] INFO : Login attempted.
+2025-05-03 00:39:55,611 [main] INFO : Driver quit.
+2025-05-03 00:40:24,911 [main] INFO : Starting test: testLogin
+2025-05-03 00:40:26,383 [main] INFO : Launching Chrome browser.
+2025-05-03 00:40:26,386 [main] INFO : LoginPage object initialized.
+2025-05-03 00:40:26,963 [main] INFO : Navigated to login page: https://www.facebook.com/
+2025-05-03 00:40:27,171 [main] INFO : Login attempted.
+2025-05-03 00:40:29,136 [main] INFO : Driver quit.
+2025-05-03 00:40:41,890 [main] INFO : Starting test: testLogin
+2025-05-03 00:40:46,890 [main] INFO : Launching Edge browser.
+2025-05-03 00:40:46,894 [main] INFO : LoginPage object initialized.
+2025-05-03 00:40:47,894 [main] INFO : Navigated to login page: https://www.facebook.com/
+2025-05-03 00:40:48,069 [main] INFO : Login attempted.
+2025-05-03 00:40:50,847 [main] INFO : Driver quit.
+2025-05-03 00:41:09,664 [main] INFO : Starting test: testLogin
+2025-05-03 00:41:12,833 [main] INFO : Launching Edge browser.
+2025-05-03 00:41:12,838 [main] INFO : LoginPage object initialized.
+2025-05-03 00:41:13,798 [main] INFO : Navigated to login page: https://www.facebook.com/
+2025-05-03 00:41:13,952 [main] INFO : Login attempted.
+2025-05-03 00:41:16,901 [main] INFO : Driver quit.
+2025-05-03 00:41:52,614 [main] INFO : Starting test: testLogin
+2025-05-03 00:41:55,963 [main] INFO : Launching Firefox browser.
+2025-05-03 00:41:55,967 [main] INFO : LoginPage object initialized.
+2025-05-03 00:41:56,782 [main] INFO : Navigated to login page: https://www.facebook.com/
+2025-05-03 00:41:58,733 [main] INFO : Login attempted.
+2025-05-03 00:41:59,650 [main] INFO : Driver quit.
+2025-05-03 00:42:26,907 [main] INFO : Starting test: testLogin
+2025-05-03 00:42:30,039 [main] INFO : Launching Edge browser.
+2025-05-03 00:42:30,044 [main] INFO : LoginPage object initialized.
+2025-05-03 00:42:31,102 [main] INFO : Navigated to login page: https://www.facebook.com/
+2025-05-03 00:42:31,252 [main] INFO : Login attempted.
+2025-05-03 00:42:34,095 [main] INFO : Driver quit.
