@@ -12,7 +12,6 @@ import java.lang.reflect.Method;
 
 public class BaseTest {
     protected WebDriver driver;
-    private static final String BASE_URL = "https://www.facebook.com/";
 
     @BeforeSuite
     public void beforeSuite() {
@@ -25,16 +24,18 @@ public class BaseTest {
         ExtentTestManager.startTest(method.getName());
         Log.info("Starting test: " + method.getName());
 
-        driver.get(BASE_URL);
-        Log.info("Navigated to login page: " + BASE_URL);
     }
 
     @AfterMethod
     public void tearDown() {
         if (driver != null) {
-//            driver.quit();
+            driver.quit();
             Log.info("Driver quit.");
         }
         ExtentManager.flushReports();
+    }
+
+    public WebDriver getDriver() {
+        return this.driver;
     }
 }

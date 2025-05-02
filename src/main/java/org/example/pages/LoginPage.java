@@ -1,11 +1,13 @@
 package org.example.pages;
 
+import org.example.utils.Log;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class LoginPage {
     WebDriver driver;
 
+    private static final String BASE_URL = "https://www.facebook.com/";
     By username = By.id("email");
     By password = By.id("pass");
     By loginBtn = By.name("login");
@@ -17,6 +19,10 @@ public class LoginPage {
         this.driver = driver;
     }
 
+    public void goToSite() {
+        driver.get(BASE_URL);
+        Log.info("Navigated to login page: " + BASE_URL);
+    }
     public void login(String user, String pass) {
         driver.findElement(username).sendKeys(user);
         driver.findElement(password).sendKeys(pass);
